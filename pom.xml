@@ -97,7 +97,7 @@
         <ant.build.javac.target>${javac.target}</ant.build.javac.target>
 
         <groovy.version>4.0.17</groovy.version>
-        <bouncycastle.version>1.80</bouncycastle.version>
+        <bouncycastle.version>1.83</bouncycastle.version>
             <!-- NOTE: upgrading slf4j beyond this version causes
             
             Execution verify-style of goal org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2:check failed.: NullPointerException
@@ -124,7 +124,7 @@
         <sshd.tests.rerun.count>2</sshd.tests.rerun.count>
 
         <dependency.download.silent>true</dependency.download.silent>
-        <bnd.extraImports />
+        <bnd.extraImports/>
     </properties>
 
     <profiles>
@@ -330,7 +330,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -343,7 +343,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -356,7 +356,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore />
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -369,7 +369,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore />
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -382,7 +382,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -395,7 +395,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
@@ -1113,7 +1113,7 @@
                                     <onlyWhenRelease>true</onlyWhenRelease>
                                     <message>No Snapshot Dependencies Allowed</message>
                                 </requireReleaseDeps>
-                                <dependencyConvergence />
+                                <dependencyConvergence/>
                             </rules>
                         </configuration>
                     </execution>
@@ -1338,7 +1338,7 @@
         <repository>
             <id>dummy</id>
             <name>Dummy to avoid accidental deploys</name>
-            <url />
+            <url/>
         </repository>
     </distributionManagement>
 
